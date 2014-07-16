@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A958FB684D5349969C101FF5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ADAC6A884646F3AC2E18C2 /* libPods.a */; };
 		CC79CF4D19760EA10009468B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC79CF4C19760EA10009468B /* Foundation.framework */; };
 		CC79CF4F19760EA10009468B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC79CF4E19760EA10009468B /* CoreGraphics.framework */; };
 		CC79CF5119760EA10009468B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC79CF5019760EA10009468B /* UIKit.framework */; };
@@ -19,6 +20,12 @@
 		CC79CF6819760EA10009468B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC79CF5019760EA10009468B /* UIKit.framework */; };
 		CC79CF7019760EA10009468B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC79CF6E19760EA10009468B /* InfoPlist.strings */; };
 		CC79CF7219760EA10009468B /* parseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79CF7119760EA10009468B /* parseDemoTests.m */; };
+		CC79CF7E19760ECE0009468B /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79CF7C19760ECE0009468B /* DemoViewController.m */; };
+		CC79CF7F19760ECE0009468B /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC79CF7D19760ECE0009468B /* DemoViewController.xib */; };
+		CC79CF83197612120009468B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79CF81197612120009468B /* LoginViewController.m */; };
+		CC79CF84197612120009468B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC79CF82197612120009468B /* LoginViewController.xib */; };
+		CC79CF8819761F400009468B /* ChatCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79CF8619761F400009468B /* ChatCellTableViewCell.m */; };
+		CC79CF8919761F400009468B /* ChatCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC79CF8719761F400009468B /* ChatCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06ADAC6A884646F3AC2E18C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51AFE981F6A4324B8099B02 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CC79CF4919760EA10009468B /* parseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC79CF4C19760EA10009468B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC79CF4E19760EA10009468B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,15 @@
 		CC79CF6D19760EA10009468B /* parseDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "parseDemoTests-Info.plist"; sourceTree = "<group>"; };
 		CC79CF6F19760EA10009468B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC79CF7119760EA10009468B /* parseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = parseDemoTests.m; sourceTree = "<group>"; };
+		CC79CF7B19760ECE0009468B /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		CC79CF7C19760ECE0009468B /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		CC79CF7D19760ECE0009468B /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		CC79CF80197612120009468B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CC79CF81197612120009468B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CC79CF82197612120009468B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		CC79CF8519761F400009468B /* ChatCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCellTableViewCell.h; sourceTree = "<group>"; };
+		CC79CF8619761F400009468B /* ChatCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCellTableViewCell.m; sourceTree = "<group>"; };
+		CC79CF8719761F400009468B /* ChatCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCellTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 				CC79CF4F19760EA10009468B /* CoreGraphics.framework in Frameworks */,
 				CC79CF5119760EA10009468B /* UIKit.framework in Frameworks */,
 				CC79CF4D19760EA10009468B /* Foundation.framework in Frameworks */,
+				A958FB684D5349969C101FF5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,7 @@
 				CC79CF6B19760EA10009468B /* parseDemoTests */,
 				CC79CF4B19760EA10009468B /* Frameworks */,
 				CC79CF4A19760EA10009468B /* Products */,
+				B51AFE981F6A4324B8099B02 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +120,7 @@
 				CC79CF4E19760EA10009468B /* CoreGraphics.framework */,
 				CC79CF5019760EA10009468B /* UIKit.framework */,
 				CC79CF6519760EA10009468B /* XCTest.framework */,
+				06ADAC6A884646F3AC2E18C2 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +132,15 @@
 				CC79CF5C19760EA10009468B /* AppDelegate.m */,
 				CC79CF5E19760EA10009468B /* Images.xcassets */,
 				CC79CF5319760EA10009468B /* Supporting Files */,
+				CC79CF7B19760ECE0009468B /* DemoViewController.h */,
+				CC79CF7C19760ECE0009468B /* DemoViewController.m */,
+				CC79CF7D19760ECE0009468B /* DemoViewController.xib */,
+				CC79CF80197612120009468B /* LoginViewController.h */,
+				CC79CF81197612120009468B /* LoginViewController.m */,
+				CC79CF82197612120009468B /* LoginViewController.xib */,
+				CC79CF8519761F400009468B /* ChatCellTableViewCell.h */,
+				CC79CF8619761F400009468B /* ChatCellTableViewCell.m */,
+				CC79CF8719761F400009468B /* ChatCellTableViewCell.xib */,
 			);
 			path = parseDemo;
 			sourceTree = "<group>";
@@ -151,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC79CF7519760EA10009468B /* Build configuration list for PBXNativeTarget "parseDemo" */;
 			buildPhases = (
+				1785B2F0FC7848979A88AE44 /* Check Pods Manifest.lock */,
 				CC79CF4519760EA10009468B /* Sources */,
 				CC79CF4619760EA10009468B /* Frameworks */,
 				CC79CF4719760EA10009468B /* Resources */,
+				3FAA65C6B6EC4D8BA6579261 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,7 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC79CF8919761F400009468B /* ChatCellTableViewCell.xib in Resources */,
+				CC79CF84197612120009468B /* LoginViewController.xib in Resources */,
 				CC79CF5719760EA10009468B /* InfoPlist.strings in Resources */,
+				CC79CF7F19760ECE0009468B /* DemoViewController.xib in Resources */,
 				CC79CF5F19760EA10009468B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,12 +269,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1785B2F0FC7848979A88AE44 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FAA65C6B6EC4D8BA6579261 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC79CF4519760EA10009468B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC79CF83197612120009468B /* LoginViewController.m in Sources */,
+				CC79CF7E19760ECE0009468B /* DemoViewController.m in Sources */,
 				CC79CF5D19760EA10009468B /* AppDelegate.m in Sources */,
+				CC79CF8819761F400009468B /* ChatCellTableViewCell.m in Sources */,
 				CC79CF5919760EA10009468B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +425,7 @@
 		};
 		CC79CF7619760EA10009468B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51AFE981F6A4324B8099B02 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +439,7 @@
 		};
 		CC79CF7719760EA10009468B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51AFE981F6A4324B8099B02 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +510,7 @@
 				CC79CF7719760EA10009468B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC79CF7819760EA10009468B /* Build configuration list for PBXNativeTarget "parseDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +519,7 @@
 				CC79CF7A19760EA10009468B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
